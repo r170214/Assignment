@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 id="heading"><u>Customer Survey Form</u></h1>
+    <div class="formbody">
+        <div class="form">
+           
+            
+                <label class="label" for="">First Name</label>
+                <input  class="input" type="text" placeholder="Enter First Name" required><br><br>
+                <label  class="label" for="">Last Name</label>
+                <input class="input" type="text" placeholder="Enter Last Name" required><br><br>
+                <label  class="label" for="">DateOfBirth</label>
+                <input class="input" type="date" required ><br><br>
+
+                <label   class="label" for="Country">Country Name</label>
+                <select class="input" required name="Select">
+                    <option value="">Select Option</option>
+                    <option  value="India">India</option>
+                    <option value="United States">United states</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Srilanka">Srilanka</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Canada">Canada</option>
+                    <option value="China">China</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="France">France</option>
+                    <option value="Brutan">Brutan</option>
+                </select><br><br>
+
+                <label class="label"  for="gender" name="gender" >Gender :</label>
+                <input  type="radio" name="gender" value="Male" >
+                <label for="male"> Male</label>
+                <input type="radio" name="gender" value="Female" >
+                <label for="female">Female</label>
+                <br><br>
+                <label  class="label" for="">Profession</label>
+                <input class="input" type="text" required placeholder="Enter Your Profession">
+                <br><br>
+                <label  class="label" for="phno">Email Id </label>
+                <input class="input" required type="email" placeholder="Enter Your email"><br><br>
+                
+                <label  class="label" for="phno">Phone No</label>
+                <input class="input" required type="tel" placeholder="Enter Phone Number"><br><br><br><br>
+                <div class="bt">
+                    <button onclick="submit()">Submit</button>
+                    <button type="reset" onclick="reset()">Reset</button>
+                </div>
+           
+        
+        </div>    
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

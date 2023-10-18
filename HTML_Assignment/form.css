@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: white; */
+}
+#heading{
+    margin: 5px 5px;
+    padding: 10px;
+    text-align: center;
+    /* background-color: rgb(193, 140, 244); */
+    border-radius: 5px;
+}
+.formbody{
+    background-color:white ;
+    border-radius: 5px;
+}
+.form{
+    padding: 20px 55px;
+    height: 550px;
+    width: 365px;
+    border-radius: 15px;
+    margin: 10px 380px;
+    background-color:rgb(193, 140, 244) ;
+    
+   text-align: left;
+   
+}
+.input{
+    border: 1px solid black;
+    height: 23px;
+    width: 235px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px;
+}
+/* #input1{
+    border: 1px solid black;
+    height: 23px;
+    width: 235px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px;
+}
+#input2{
+    border: 1px solid black;
+    height: 23px;
+    width: 235px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px;
+}
+#input3{
+    border: 1px solid black;
+    height: 23px;
+    width: 235px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px;
+}
+#input6{
+    border: 1px solid black;
+    height: 23px;
+    width: 235px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px;
+}
+#input7{
+    border: 1px solid black;
+    height: 23px;
+    width: 235px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px;
+}
+#input8{
+    border: 1px solid black;
+    height: 23px;
+    width: 235px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px;
+} */
+select{
+    border: 1px solid black;
+    height: 33px;
+    width: 230px;
+    border-radius: 3px;
+}
+button{
+    height:25px ;
+    width: 75px;
+    margin: 0px 35px;
+    
+}
